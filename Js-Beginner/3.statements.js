@@ -14,3 +14,4 @@ const course = "this is the js beginner course" ;
 {
     let a = 10
 }
+
