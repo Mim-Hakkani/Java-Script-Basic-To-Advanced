@@ -1,0 +1,43 @@
+Both JSON and XML can be used to receive data from a web server.
+
+json format : 
+*******************************
+
+{"employees":[
+  { "firstName":"John", "lastName":"Doe" },
+  { "firstName":"Anna", "lastName":"Smith" },
+  { "firstName":"Peter", "lastName":"Jones" }
+]}
+
+xml format :
+**************************
+
+<employees>
+  <employee>
+    <firstName>John</firstName> <lastName>Doe</lastName>
+  </employee>
+  <employee>
+    <firstName>Anna</firstName> <lastName>Smith</lastName>
+  </employee>
+  <employee>
+    <firstName>Peter</firstName> <lastName>Jones</lastName>
+  </employee>
+</employees>
+
+
+simillarity betwwn json and xml :
+*****************************************
+
+Both JSON and XML are "self describing" (human readable)
+Both JSON and XML are hierarchical (values within values)
+Both JSON and XML can be parsed and used by lots of programming languages
+Both JSON and XML can be fetched with an XMLHttpRequest
+
+difference between xml vs json :
+*******************************************
+
+JSON doesn't use end tag
+JSON is shorter
+JSON is quicker to read and write
+JSON can use arrays
+XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
