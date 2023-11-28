@@ -1,0 +1,52 @@
+ what is json 
+*************************
+SON stands for JavaScript Object Notation
+JSON is a lightweight data-interchange format
+JSON is plain text written in JavaScript object notation
+JSON is used to send data between computers
+JSON is language independent *
+
+Why JSON :
+*******************************
+
+1.You can receive pure text from a server and use it as a JavaScript object.
+2.you can send a JavaScript object to a server in pure text format.
+3.You can work with data as JavaScript objects, with no complicated parsing and translations.
+
+
+example  is json 
+*************************
+'{"name":"John", "age":30, "car":null,"roll":["1","2"]}'
+
+JSON TYPES : valid 
+***********************************
+
+In JSON, values must be one of the following data types:
+
+a string
+a number
+an object
+an array
+a boolean
+null
+
+JSON TYPES : unvalid  not suppoted 
+********************************************
+a function
+a date
+undefined
+
+
+Rules of json :
+*******************
+JSON stands for JavaScript Object Notation
+JSON is a lightweight data-interchange format
+JSON is plain text written in JavaScript object notation
+JSON is used to send data between computers
+JSON is language independent *
+
+JSON Files
+*************************
+The file type for JSON files is ".json"
+The MIME type for JSON text is "application/json"
+
