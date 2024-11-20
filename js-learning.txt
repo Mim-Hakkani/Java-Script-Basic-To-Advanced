@@ -1,0 +1,497 @@
+An introduction
+	An Introduction to JavaScript
+	Manuals and specifications
+	Code editors
+	Developer console
+	
+JavaScript Fundamentals
+	Hello, world!
+	Code structure
+	The modern mode, "use strict"
+	Variables
+	Data types
+	Interaction: alert, prompt, confirm
+	Type Conversions
+	Basic operators, maths
+	Comparisons
+	Conditional branching: if, '?'
+	Logical operators
+	Nullish coalescing operator '??'
+	Loops: while and for
+	The "switch" statement
+	Functions
+	Function expressions
+	Arrow functions, the basics
+	JavaScript specials
+
+Code quality
+	Debugging in the browser
+	Coding Style
+	Comments
+	Ninja code
+	Automated testing with Mocha
+	Polyfills and transpilers
+
+Objects: the basics
+	Objects
+	Object references and copying
+	Garbage collection
+	Object methods, "this"
+	Constructor, operator "new"
+	Optional chaining '?.'
+
+Data types
+
+	Methods of primitives
+	Numbers
+	Strings
+	Arrays
+	Array methods
+	Iterables
+	Map and Set
+	WeakMap and WeakSet
+	Object.keys, values, entries
+	Destructuring assignment
+	Date and time
+	JSON methods, toJSON
+	
+	
+Advanced working with functions
+
+	Recursion and stack
+	Rest parameters and spread syntax
+	Variable scope, closure
+	The old "var"
+	Global object
+	Function object, NFE
+	The "new Function" syntax
+	Scheduling: setTimeout and setInterval
+	Decorators and forwarding, call/apply
+	Function binding
+	Arrow functions revisited
+
+Object properties configuration
+	Property flags and descriptors
+	Property getters and setters
+
+Prototypes, inheritance
+	Prototypal inheritance
+	F.prototype
+	Native prototypes
+	Prototype methods, objects without __proto__
+	
+Classes
+
+	Class basic syntax
+	Class inheritance
+	Static properties and methods
+	Private and protected properties and methods
+	Extending built-in classes
+	Class checking: "instanceof"
+	Mixins
+	
+
+Error handling
+	Error handling, "try...catch"
+	Custom errors, extending Error
+	
+Promises, async/await
+	
+ 	Introduction: callbacks
+	Promise
+	Promises chaining
+	Error handling with promises
+	Promise API
+	Promisification
+	Microtasks
+	Async/await
+
+Generators, advanced iteration
+	Generators
+	Async iteration and generators
+
+Modules
+	Modules, introduction
+	Export and Import
+	Dynamic imports
+	
+Miscellaneous
+	Proxy and Reflect
+	Eval: run a code string
+	Currying
+	Reference Type
+	BigInt
+	Unicode, String internals
+	WeakRef and FinalizationRegistry
+
+
+Document
+	Browser environment, specs
+	DOM tree
+	Walking the DOM
+	Searching: getElement*, querySelector*
+	Node properties: type, tag and contents
+	Attributes and properties
+	Modifying the document
+	Styles and classes
+	Element size and scrolling
+	Window sizes and scrolling
+	Coordinates
+
+Introduction to Events
+	Introduction to browser events
+	Bubbling and capturing
+	Event delegation
+	Browser default actions
+	Dispatching custom events
+
+UI Events
+	Mouse events
+	Moving the mouse: mouseover/out, mouseenter/leave
+	Drag'n'Drop with mouse events
+	Pointer events
+	Keyboard: keydown and keyup
+	Scrolling
+
+Forms, controls
+	Form properties and methods
+	Focusing: focus/blur
+	Events: change, input, cut, copy, paste
+	Forms: event and method submit
+	
+Document and resource loading
+	Page: DOMContentLoaded, load, beforeunload, unload
+	Scripts: async, defer
+	Resource loading: onload and onerror
+	
+Network requests
+	Fetch
+	FormData
+	Fetch: Download progress
+	Fetch: Abort
+	Fetch: Cross-Origin Requests
+	Fetch API
+	URL objects
+	XMLHttpRequest
+	Resumable file upload
+	Long polling
+	WebSocket
+	Server Sent Events
+
+Storing data in the browser
+	Cookies, document.cookie
+	LocalStorage, sessionStorage
+	IndexedDB
+	
+Animation
+	Bezier curve
+	CSS-animations
+	JavaScript animations
+
+Web components
+	From the orbital height
+	Custom elements
+	Shadow DOM
+	Template element
+	Shadow DOM slots, composition
+	Shadow DOM styling
+	Shadow DOM and events
+
+Regular expressions
+	Patterns and flags
+	Character classes
+	Unicode: flag "u" and class \p{...}
+	Anchors: string start ^ and end $
+	Multiline mode of anchors ^ $, flag "m"
+	Word boundary: \b
+	Escaping, special characters
+	Sets and ranges [...]
+	Quantifiers +, *, ? and {n}
+	Greedy and lazy quantifiers
+	Capturing groups
+	Backreferences in pattern: \N and \k<name>
+	Alternation (OR) |
+	Lookahead and lookbehind
+	Catastrophic backtracking
+	Sticky flag "y", searching at position
+	Methods of RegExp and String
+
+
+Frames and windows
+	Popups and window methods
+	Cross-window communication
+	The clickjacking attack
+	
+Binary data, files
+	ArrayBuffer, binary arrays
+	TextDecoder and TextEncoder
+	Blob
+	File and FileReader
+	
+	
+	/************************************************** W3 schools ****************************************/
+	
+ES5 Features
+	"use strict"
+	String[number] access
+	Multiline strings
+	String.trim()
+	Array.isArray()
+	Array forEach()
+	Array map()
+	Array filter()
+	Array reduce()
+	Array reduceRight()
+	Array every()
+	Array some()
+	Array indexOf()
+	Array lastIndexOf()
+	JSON.parse()
+	JSON.stringify()
+	Date.now()
+	Date toISOString()
+	Date toJSON()
+	Property getters and setters
+	Reserved words as property names
+	Object.create()
+	Object.keys()
+	Object management
+	Object protection
+	Object defineProperty()
+	Function bind()
+	Trailing commas
+	
+New Features in ES6: 
+
+	The let keyword
+	The const keyword
+	Arrow Functions
+	The {a,b} = Operator
+	The [a,b] = Operator
+	The ... Operator
+	For/of
+	Map Objects
+	Set Objects
+	Classes
+	Promises
+	Symbol
+	Default Parameters
+	Function Rest Parameter
+	String.includes()
+	String.startsWith()
+	String.endsWith()
+	Array entries()
+	Array.from()
+	Array keys()
+	Array find()
+	Array findIndex()
+	Math.trunc
+	Math.sign
+	Math.cbrt
+	Math.log2
+	Math.log10
+	Number.EPSILON
+	Number.MIN_SAFE_INTEGER
+	Number.MAX_SAFE_INTEGER
+	Number.isInteger()
+	Number.isSafeInteger()
+	New Global Methods
+	JavaScript Modules
+es 16:
+	JavaScript Exponentiation (**)
+	JavaScript Exponentiation assignment (**=)
+	JavaScript Array includes()
+	
+es 17 :
+	JavaScript String padding
+	JavaScript Object entries()
+	JavaScript Object values()
+	JavaScript async and await
+	Trailing Commas in Functions
+	JavaScript Object.getOwnPropertyDescriptors
+es 18:	
+	Asynchronous Iteration
+	Promise Finally
+	Object Rest Properties
+	New RegExp Features
+	JavaScript Shared Memory
+	
+New Features in ES2019
+	String.trimStart()
+	String.trimEnd()
+	Object.fromEntries
+	Optional catch binding
+	Array.flat()
+	Array.flatMap()
+	Revised Array.Sort()
+	Revised JSON.stringify()
+	Separator symbols allowed in string litterals
+	Revised Function.toString()
+	
+New Features in ES2020
+	BigInt
+	String matchAll()
+	The Nullish Coalescing Operator (??)
+	The Optional Chaining Operator (?.)
+	Logical AND Assignment Operator (&&=)
+	Logical OR Assignment (||=)
+	Nullish Coalescing Assignment (??=)
+	Promise.allSettled()
+	Dynamic Import
+	
+New Features in ES2021
+	Promise.any()
+	String replaceAll()
+	Numeric Separators (_)
+	
+New Features in ES2022
+	Array at()
+	String at()
+	RegExp /d
+	Object.hasOwn()
+	error.cause
+	await import
+	Class field declarations
+	Private methods and fields
+	
+New Features in ES2023
+	Array findLast()
+	Array findLastIndex()
+	Array toReversed()
+	Array toSorted()
+	Array toSpliced()
+	Array with()
+	#! (Shebang)
+	
+New Features in ES2024
+	Object.groupBy()
+	Map.groupBy()
+	Temporal.PlainDate()
+	Temporal.PlainTime()
+	Temporal.PlainMonthDay()
+	Temporal.PlainYearMonth()
+
+JS JSON
+	JSON Intro
+	JSON Syntax
+	JSON vs XML
+	JSON Data Types
+	JSON Parse
+	JSON Stringify
+	JSON Objects
+	JSON Arrays
+	JSON Server
+	JSON PHP
+	JSON HTML
+	JSON JSONP
+JS Async
+	JS Callbacks
+	JS Asynchronous
+	JS Promises
+	JS Async/Await
+
+JS HTML DOM
+	DOM Intro
+	DOM Methods
+	DOM Document
+	DOM Elements
+	DOM HTML
+	DOM Forms
+	DOM CSS
+	DOM Animations
+	DOM Events
+	DOM Event Listener
+	DOM Navigation
+	DOM Nodes
+	DOM Collections
+	DOM Node Lists
+
+JS Browser BOM
+	JS Window
+	JS Screen
+	JS Location
+	JS History
+	JS Navigator
+	JS Popup Alert
+	JS Timing
+	JS Cookies
+
+JS Web APIs
+	Web API Intro
+	Web Forms API
+	Web History API
+	Web Storage API
+	Web Worker API
+	Web Fetch API
+	Web Geolocation API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
